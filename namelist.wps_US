@@ -2,7 +2,7 @@
  wrf_core                           = 'ARW',  
  max_dom                            = 1,      
  start_date                         = '2014-04-01_00:00:00','2011-08-31_00:00:00',
- end_date                           = '2014-09-01_00:00:00','2011-09-01_00:00:00',
+ end_date                           = '2014-08-26_00:00:00','2011-09-01_00:00:00',
  interval_seconds                   = 10800,  
  io_form_geogrid                    = 2,      
  /
@@ -12,18 +12,18 @@
  parent_grid_ratio                  = 1,      1,      
  i_parent_start                     = 1,      1,      
  j_parent_start                     = 1,      1,      
- e_we                               = 430,    249,    
- e_sn                               = 345,    215,    
+ e_we                               = 405,    249,    
+ e_sn                               = 270,    215,    
  geog_data_res                      = '5m',   '5m',   
  dx                                 = 12000,  
  dy                                 = 12000,  
  map_proj                           = 'lambert',
  ref_lat                            = 39,     
- ref_lon                            = -95,    
+ ref_lon                            = -97,    
  truelat1                           = 39,     
  truelat2                           = 39,     
- stand_lon                          = -95,    
- geog_data_path                     = '/data/geog/',
+ stand_lon                          = -97,    
+ geog_data_path                     = '/public/home/njxdqx/data/geog/',
  /
 
 &ungrib
@@ -34,6 +34,5 @@
 &metgrid
  fg_name                            = 'FILE', 
  io_form_metgrid                    = 2,      
- constants_name                     = '/data/home/wang/zx/data/NARR/NARRfixed.wps',
+ constants_name                     = '/public/home/njxdqx/data/NARR/NARRfixed.wps',
  /
-
