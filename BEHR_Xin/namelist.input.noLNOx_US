@@ -45,9 +45,9 @@
  time_step_fract_num                = 0,      
  time_step_fract_den                = 1,      
  max_dom                            = 1,      
- e_we                               = 405,    249,    
+ e_we                               = 430,    249,    
  e_sn                               = 270,    215,    
- e_vert                             = 40,     30,     30,     
+ e_vert                             = 30,     30,     30,     
  dx                                 = 12000,  
  dy                                 = 12000,  
  p_top_requested                    = 10000,  
@@ -62,7 +62,7 @@
  feedback                           = 1,      
  smooth_option                      = 0,     
  nproc_x                            = 11,
- nproc_y                            = 50, 
+ nproc_y                            = 34,
  /
 
 &physics
@@ -189,7 +189,7 @@
  /
 
 &namelist_quilt
- nio_tasks_per_group                = 2,      
- nio_groups                         = 5,      
+ nio_tasks_per_group                = 5,
+ nio_groups                         = 2, 
  /
 
