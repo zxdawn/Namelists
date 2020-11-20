@@ -152,10 +152,10 @@
  vertmix_onoff                      = 1,      1,      1,
  biomass_burn_opt                   = 0,      0,      0,
  plumerisefire_frq                  = 30,     30,     30,
- aer_ra_feedback                    = 1,      1,      1,
+ aer_ra_feedback                    = 0,      0,      0,
  chem_conv_tr                       = 1,      0,      0,
  conv_tr_aqchem                     = 1,      0,      0,
- lnox_opt                           = 1,      2,      2,
+ lnox_opt                           = 1,      1,      1,
  n_ic                               = 0,      0,      0,
  n_cg                               = 0,      0,      0,
  irr_opt                            = 0,      0,      1,
@@ -164,7 +164,7 @@
 
  &dynamics
  use_theta_m                         = 0,
- hybrid_opt                          = 2,
+ hybrid_opt                          = 0,
  w_damping                           = 0,
  diff_opt                            = 1,      1,      1,
  km_opt                              = 4,      4,      4,
